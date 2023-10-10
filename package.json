@@ -1,0 +1,22 @@
+{
+  "name": "ethers-from-explorer",
+  "version": "0.0.1",
+  "description": "Instantiate ethers.js Contract without manual ABI import.",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha.js test",
+    "pretty": "npx prettier --write 'main.js' 'test/'"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "ethers": ">=5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "ethers": "^5",
+    "prettier": "^2.8.8",
+    "mocha": "^10.2.0",
+    "ethers-from-explorer": "file:./"
+  }
+}
