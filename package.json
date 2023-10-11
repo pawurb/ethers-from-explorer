@@ -7,10 +7,23 @@
     "test": "./node_modules/mocha/bin/mocha.js test",
     "pretty": "npx prettier --write 'main.js' 'test/'"
   },
-  "author": "",
+  "author": "Pawel Urbanek",
   "license": "MIT",
   "peerDependencies": {
     "ethers": ">=5"
+  },
+  "files": [
+    "main.js"
+  ],
+  "keywords": [
+    "ethers.js",
+    "ethers",
+    "ethereum",
+    "blockchain",
+    "etherscan"
+  ],
+  "engines": {
+    "node": ">=11"
   },
   "devDependencies": {
     "chai": "^4.3.10",

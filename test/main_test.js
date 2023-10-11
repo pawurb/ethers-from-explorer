@@ -36,7 +36,7 @@ describe("ethers.fromExplorer", async () => {
     expect(result).to.eq("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48");
   });
 
-  it.only("caches ABI responses to the target JSON file", async () => {
+  it("caches ABI responses to the target JSON file", async () => {
     expect(fs.existsSync(FULL_PATH)).to.eq(false)
 
     const contract = await ethers.fromExplorer(
